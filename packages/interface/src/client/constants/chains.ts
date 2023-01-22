@@ -14,14 +14,12 @@ export const chains = {
     [ChainId.MAINNET]: {
         // Random each time. If one is down then refreshing the page should lead to another.
         urls: shuffleArray([
-            "https://rpc-sg.dogechain.dog",
-            "https://rpc-us.dogechain.dog",
-            "https://rpc.dogechain.dog",
+            "https://dogechain-sj.ankr.com",
+            "https://dogechain.ankr.com",
 
             "https://rpc01-sg.dogechain.dog",
             "https://rpc02-sg.dogechain.dog",
             "https://rpc03-sg.dogechain.dog",
-            "https://dogechain.ankr.com",
         ]),
         name: "Dogechain Mainnet",
         nativeCurrency: NativeToken.Instance,
