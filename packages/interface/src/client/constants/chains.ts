@@ -21,6 +21,7 @@ export const chains = {
             "https://rpc01-sg.dogechain.dog",
             "https://rpc02-sg.dogechain.dog",
             "https://rpc03-sg.dogechain.dog",
+            "https://dogechain.ankr.com/",
         ]),
         name: "Dogechain Mainnet",
         nativeCurrency: NativeToken.Instance,
